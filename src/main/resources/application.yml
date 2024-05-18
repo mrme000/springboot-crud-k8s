@@ -1,4 +1,4 @@
-spring:
+kubectl get podskubectl get podsspring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://${DB_HOST}/${DB_NAME}?useSSL=false
